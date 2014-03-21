@@ -13,14 +13,12 @@
 
 <b><code>learnyoujs</code></b> will run through a series of JavaScript workshops. Starting at a basic *"HELLO WORLD"* and moving on to more advanced exercises about dealing with object types, writing functions, understanding callbacks, prototypes, etc.
 
-Once you have finished <b><code>learnyoujs</code></b>, graduate to <b><code>[stream-adventure](https://github.com/substack/stream-adventure)</code></b> for a set of exercises that dig in to Node's streams.
-
 ### Contributors
 
 <b><code>learnyoujs</code></b> is proudly brought to you by the following hackers:
 
 <table><tbody>
-<tr><th align="left">Dave Arel</th><td><a href="https://github.com/davearel">GitHub/rvagg</a></td><td><a href="http://twitter.com/davearel">Twitter/@davearel</a></td></tr>
+<tr><th align="left">Dave Arel</th><td><a href="https://github.com/davearel">GitHub/davearel</a></td><td><a href="http://twitter.com/davearel">Twitter/@davearel</a></td></tr>
 </tbody></table>
 
 ## License
