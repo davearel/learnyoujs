@@ -1,29 +1,16 @@
 #!/usr/bin/env node
 
-const workshopper = require('workshopper')
+const Workshopper = require('workshopper')
     , path        = require('path')
-    , credits     = require('./credits')
-    , menu        = require('./exercises/menu')
 
-    , name        = 'learnyoujs'
-    , title       = 'LEARN YOU THE NODE.JS FOR MUCH WIN!'
-    , subtitle    = '\x1b[23mSelect an exercise and hit \x1b[3mEnter\x1b[23m to begin'
-
-
-function fpath (f) {
-  return path.join(__dirname, f)
-}
-
-
-workshopper({
-    name        : name
-  , title       : title
-  , subtitle    : subtitle
-  , exerciseDir : fpath('./exercises/')
-  , appDir      : __dirname
-  , helpFile    : fpath('help.txt')
-  , menuItems   : [ {
-        name    : 'credits'
-      , handler : credits
-    } ]
-})
+Workshopper({
+    name              : 'learnyoujs'
+  , title             : 'LEARN YOU THE JAVASCRIPTS'
+  , subtitle          : 'Select an exercise and hit Enter to begin'
+  , appDir            : __dirname
+  , exerciseDir       : path.join(__dirname, 'problems')
+  , helpFile          : path.join(__dirname, 'help.txt')
+  , prerequisitesFile : path.join(__dirname, 'prerequisites.txt')
+  , creditsFile       : path.join(__dirname, 'credits.txt')
+  , menu              : { bg: 'cyan', fg: 'white' }
+}).init()

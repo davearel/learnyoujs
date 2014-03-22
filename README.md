@@ -1,4 +1,4 @@
-# Learn You The JavaScript For Much Win!
+# Learn You The JavaScript!
 
 **An intro to JavaScript via a set of self-guided workshops.**
 

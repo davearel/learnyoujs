@@ -1,5 +1,5 @@
 {yellow}{bold}learnyoujs is brought to you by the following dedicated hackers:{/bold}{/yellow}
 
-{bold}Name                GitHub Username{/bold}
+{bold}Name          GitHub Username{/bold}
 -----------------------------------
 Dave Arel           @davearel

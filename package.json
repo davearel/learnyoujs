@@ -1,6 +1,6 @@
 {
   "name": "learnyoujs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Learn You The JavaScript For Much Win! An intro to JavaScript via a set of self-guided workshops.",
   "author": "Dave Arel <davearel@gmail.com> (https://github.com/davearel)",
   "contributors": [
@@ -12,10 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "workshopper": "^1.0.0-alpha05",
-    "workshopper-exercise": "^0.2.2",
-    "workshopper-wrappedexec": "^0.1.1",
-    "workshopper-boilerplate": "0.0.1"
+    "workshopper": "0.4.1"
   },
   "bin": "./learnyoujs.js",
   "preferGlobal": true
