@@ -1,1 +1,13 @@
-# Wat is JavaScript
+JavaScript is a cross-platform, object-oriented scripting language.
+While its origin is within the traditional desktop web browser, newer
+platforms have increased the broad usage of JavaScript as a
+programming langage.
+
+One of the most recent and exciting developments has been Node.js.
+Node.js is an engine which executes JavaScript in a server environment.
+
+While most problems solved in `learnyoujs` will be applicable to both
+environments, we'll mainly focus on JavaScript on the server and forgo
+the often flawed and complicated use of the browsers DOM.
+
+{blue}Lets say hello to our console!{/blue}
